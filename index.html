@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chingu Banderillas</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#fff7f3;
+}
+
+header{
+    background:#ff6b81;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+}
+
+nav{
+    background:#ff8fa3;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h2{
+    font-size:2.5rem;
+    color:#333;
+}
+
+.hero p{
+    margin:15px 0;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff6b81;
+    color:white;
+    padding:12px 25px;
+    border-radius:10px;
+    text-decoration:none;
+}
+
+.productos{
+    padding:50px;
+}
+
+.productos h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card h3{
+    margin-top:15px;
+}
+
+.precio{
+    color:#ff6b81;
+    font-size:1.3rem;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+button{
+    background:#ff6b81;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.contacto{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🍡 Chingu Banderillas</h1>
+    <p>Postres y banderillas deliciosas para todos</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+    <h2>Bienvenidos a Chingu Banderillas</h2>
+    <p>Disfruta de nuestros productos preparados con amor.</p>
+    <a href="#productos" class="btn">Ver Menú</a>
+</section>
+
+<section class="productos" id="productos">
+
+<h2>Nuestros Productos</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="imagenes/producto1.jpg" alt="Producto 1">
+<h3>Banderilla Coreana</h3>
+<p class="precio">$45 MXN</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<img src="imagenes/producto2.jpg" alt="Producto 2">
+<h3>Cheesecake</h3>
+<p class="precio">$60 MXN</p>
+<button>Comprar</button>
+</div>
+
+<div class="card">
+<img src="imagenes/producto3.jpg" alt="Producto 3">
+<h3>Brownie</h3>
+<p class="precio">$40 MXN</p>
+<button>Comprar</button>
+</div>
+
+</div>
+
+</section>
+
+<footer class="contacto" id="contacto">
+<h2>Contáctanos</h2>
+<p>📱 WhatsApp: 961 000 0000</p>
+<p>📷 Instagram: @chingubanderillas</p>
+<p>📧 correo@gmail.com</p>
+</footer>
+
+</body>
+</html>
